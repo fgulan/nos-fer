@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C27D2491E7B440500EC516C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C27D2481E7B440500EC516C /* main.m */; };
+		2C27D2511E7B443400EC516C /* BattleshipGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27D2501E7B443400EC516C /* BattleshipGround.swift */; };
+		2C27D2591E7B472200EC516C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C27D2581E7B472200EC516C /* Player.m */; };
+		2C27D25D1E7B486200EC516C /* BattleshipGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C27D25C1E7B486200EC516C /* BattleshipGame.m */; };
+		2C9DAB781E7C3ED700A3ED43 /* MessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DAB771E7C3ED700A3ED43 /* MessageQueue.m */; };
+		2C9DAB7B1E7C447700A3ED43 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DAB7A1E7C447700A3ED43 /* Message.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C27D2431E7B440500EC516C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C27D2451E7B440500EC516C /* FirstLab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstLab; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C27D2481E7B440500EC516C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C27D24F1E7B443400EC516C /* FirstLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C27D2501E7B443400EC516C /* BattleshipGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleshipGround.swift; sourceTree = "<group>"; };
+		2C27D2571E7B472200EC516C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2C27D2581E7B472200EC516C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2C27D25B1E7B486200EC516C /* BattleshipGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleshipGame.h; sourceTree = "<group>"; };
+		2C27D25C1E7B486200EC516C /* BattleshipGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleshipGame.m; sourceTree = "<group>"; };
+		2C27D25E1E7B49A100EC516C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C9DAB761E7C3ED700A3ED43 /* MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageQueue.h; sourceTree = "<group>"; };
+		2C9DAB771E7C3ED700A3ED43 /* MessageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageQueue.m; sourceTree = "<group>"; };
+		2C9DAB791E7C447700A3ED43 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		2C9DAB7A1E7C447700A3ED43 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C27D2421E7B440500EC516C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C27D23C1E7B440500EC516C = {
+			isa = PBXGroup;
+			children = (
+				2C27D2471E7B440500EC516C /* NOS_FirstLab */,
+				2C27D2461E7B440500EC516C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C27D2461E7B440500EC516C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C27D2451E7B440500EC516C /* FirstLab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C27D2471E7B440500EC516C /* NOS_FirstLab */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DAB751E7C3EB700A3ED43 /* MessageQueue */,
+				2C27D25A1E7B485100EC516C /* Game */,
+				2C27D2561E7B471800EC516C /* Player */,
+				2C27D2501E7B443400EC516C /* BattleshipGround.swift */,
+				2C27D2481E7B440500EC516C /* main.m */,
+				2C27D24F1E7B443400EC516C /* FirstLab-Bridging-Header.h */,
+				2C27D25E1E7B49A100EC516C /* PrefixHeader.pch */,
+			);
+			path = NOS_FirstLab;
+			sourceTree = "<group>";
+		};
+		2C27D2561E7B471800EC516C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2C27D2571E7B472200EC516C /* Player.h */,
+				2C27D2581E7B472200EC516C /* Player.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		2C27D25A1E7B485100EC516C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2C27D25B1E7B486200EC516C /* BattleshipGame.h */,
+				2C27D25C1E7B486200EC516C /* BattleshipGame.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		2C9DAB751E7C3EB700A3ED43 /* MessageQueue */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DAB761E7C3ED700A3ED43 /* MessageQueue.h */,
+				2C9DAB771E7C3ED700A3ED43 /* MessageQueue.m */,
+				2C9DAB791E7C447700A3ED43 /* Message.h */,
+				2C9DAB7A1E7C447700A3ED43 /* Message.m */,
+			);
+			name = MessageQueue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C27D2441E7B440500EC516C /* FirstLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C27D24C1E7B440500EC516C /* Build configuration list for PBXNativeTarget "FirstLab" */;
+			buildPhases = (
+				2C27D2411E7B440500EC516C /* Sources */,
+				2C27D2421E7B440500EC516C /* Frameworks */,
+				2C27D2431E7B440500EC516C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstLab;
+			productName = NOS_FirstLab;
+			productReference = 2C27D2451E7B440500EC516C /* FirstLab */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C27D23D1E7B440500EC516C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Filip Gulan";
+				TargetAttributes = {
+					2C27D2441E7B440500EC516C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Z4ZV5Y576;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C27D2401E7B440500EC516C /* Build configuration list for PBXProject "NOS_FirstLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C27D23C1E7B440500EC516C;
+			productRefGroup = 2C27D2461E7B440500EC516C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C27D2441E7B440500EC516C /* FirstLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C27D2411E7B440500EC516C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C27D2511E7B443400EC516C /* BattleshipGround.swift in Sources */,
+				2C9DAB7B1E7C447700A3ED43 /* Message.m in Sources */,
+				2C27D25D1E7B486200EC516C /* BattleshipGame.m in Sources */,
+				2C9DAB781E7C3ED700A3ED43 /* MessageQueue.m in Sources */,
+				2C27D2591E7B472200EC516C /* Player.m in Sources */,
+				2C27D2491E7B440500EC516C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C27D24A1E7B440500EC516C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C27D24B1E7B440500EC516C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C27D24D1E7B440500EC516C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5Z4ZV5Y576;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NOS_FirstLab/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NOS_FirstLab/FirstLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C27D24E1E7B440500EC516C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5Z4ZV5Y576;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NOS_FirstLab/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NOS_FirstLab/FirstLab-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C27D2401E7B440500EC516C /* Build configuration list for PBXProject "NOS_FirstLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C27D24A1E7B440500EC516C /* Debug */,
+				2C27D24B1E7B440500EC516C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C27D24C1E7B440500EC516C /* Build configuration list for PBXNativeTarget "FirstLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C27D24D1E7B440500EC516C /* Debug */,
+				2C27D24E1E7B440500EC516C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C27D23D1E7B440500EC516C /* Project object */;
+}
